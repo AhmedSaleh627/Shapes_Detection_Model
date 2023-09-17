@@ -27,13 +27,14 @@ dataset = project.version(3).download("yolov5")
 ```
 !python /content/yolov5/train.py --img 640 --batch 8 --epochs 40 --data /content/datasets/part-syn-3/data.yaml --weights yolov5s.pt --cache     # Training the model
 ```
-#### Here is the mean average precision of each class
+#### Here is the mean average precision of each class to see the accuracy of our model
 
 ![map50](https://github.com/AhmedSaleh627/Eagles/assets/88249795/b04c9970-6723-4764-b1e9-ec396de435e7)
 
 
 #### Here is the results of the training that helps us identify if there is any errors or something wrong with our training
 
+![results](https://github.com/AhmedSaleh627/Eagles/assets/88249795/87ca6c81-c9a8-4e26-b55a-5945b468565a)
 
 
 
