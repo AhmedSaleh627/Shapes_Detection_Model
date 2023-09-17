@@ -2,7 +2,7 @@
 
 [Open in Colab](https://colab.research.google.com/drive/16uytse5hdZFU1QCnMSICPkGqO5xo486f?usp=sharing)
 
-## Importing Libiraries
+#### Importing Libiraries
 ```
 import os         #For Setting up a dataset directory 
 import torch      #To use PyTorch
