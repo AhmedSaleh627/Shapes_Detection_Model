@@ -45,8 +45,26 @@ dataset = project.version(3).download("yolov5")
 #### Here is an image from the dataset used
 ![trainImage](https://github.com/AhmedSaleh627/Eagles/assets/88249795/ec1b7c33-11f8-42c0-97b6-d363b2ee4d76)
 
+#### Here is a validation batch prediction
 
-#### Testing our model
+![validation_pred](https://github.com/AhmedSaleh627/Eagles/assets/88249795/fa90fc36-15d5-4f67-88ae-5fadc2300d4f)
+
+#### Testing the prediction of the model on our test dataset.
+```
+!python /content/yolov5/detect.py --weights /content/yolov5/runs/train/exp2/weights/best.pt --img 640 --conf 0.25 --source /content/datasets/part-syn-3/test/images
+```
+####  Here is multiple examples of the output
+
+![no1](https://github.com/AhmedSaleh627/Eagles/assets/88249795/8a310f9e-3384-4a64-bd52-76bd18ee2748)
+![no2](https://github.com/AhmedSaleh627/Eagles/assets/88249795/8b1ac462-9636-4320-ad2f-8f717052c102)
+![no3](https://github.com/AhmedSaleh627/Eagles/assets/88249795/393aabda-4386-48a1-9334-c5a8e0c80b60)
+
+#### Testing the prediction of the model on an external image from different distribution.
 ```
 !python /content/yolov5/detect.py --weights /content/yolov5/runs/train/exp2/weights/best.pt --img 640 --conf 0.25 --source /content/dc6055f57fc11144481ee3173932158a.jpg    # Testing it on an external image
 ```
+
+####  Here is the output
+![infer](https://github.com/AhmedSaleh627/Eagles/assets/88249795/a99715bc-4a5b-4fab-bc9e-3d3675613eb4)
+
+
