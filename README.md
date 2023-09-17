@@ -28,7 +28,15 @@ dataset = project.version(3).download("yolov5")
 !python /content/yolov5/train.py --img 640 --batch 8 --epochs 40 --data /content/datasets/part-syn-3/data.yaml --weights yolov5s.pt --cache     # Training the model
 ```
 #### Here is the results of the training that helps us identify if there is any errors or something wrong with our training
-![Screenshot 2023-08-24 034007](https://github.com/AhmedSaleh627/Eagles/assets/88249795/accdfe71-e7d3-4aa4-bb9b-4e1bfdebc0c2)
+
+
+#### Here is the MAP50
+
+
+#### Also we can see the confusion matrix for more clarification
+
+
+#### Here is an image from the dataset used
 
 
 #### Testing our model
