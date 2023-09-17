@@ -69,5 +69,5 @@ dataset = project.version(3).download("yolov5")
 ![infer](https://github.com/AhmedSaleh627/Eagles/assets/88249795/254b1e0a-a7ad-4e1f-896b-ba5fc9ab24ff)
 
 ###  Some notes to consider when running the code:
-  1-Make sure in the data.yaml file the path to the training,testing and validation images are set correctly.(`<br>`)
+  1-Make sure in the data.yaml file the path to the training,testing and validation images are set correctly.<br/>
   2-Make sure of the path of the model when training ( train.py )
