@@ -67,5 +67,7 @@ dataset = project.version(3).download("yolov5")
 ####  Here is the output
 
 ![infer](https://github.com/AhmedSaleh627/Eagles/assets/88249795/254b1e0a-a7ad-4e1f-896b-ba5fc9ab24ff)
+####  Here is another example taken from a video
+![Screenshot 2023-09-18 000703](https://github.com/AhmedSaleh627/Eagles/assets/88249795/71191d03-cacb-4032-91a6-ea0bc358b569)
 
 
