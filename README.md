@@ -42,7 +42,7 @@ dataset = project.version(3).download("yolov5")
 ![confusion_matrix2](https://github.com/AhmedSaleh627/Eagles/assets/88249795/acdae02d-7c1a-471d-b3e1-abf1e613b70f)
 
 
-##### Here is an image from the dataset used
+### Here is an image from the dataset used
 ![trainImage](https://github.com/AhmedSaleh627/Eagles/assets/88249795/ec1b7c33-11f8-42c0-97b6-d363b2ee4d76)
 
 ### Here is a validation batch prediction
@@ -51,7 +51,7 @@ dataset = project.version(3).download("yolov5")
 
 ### Testing the prediction of the model on our test dataset.
 ```
-!python /content/yolov5/detect.py --weights /content/yolov5/runs/train/exp2/weights/best.pt --img 640 --conf 0.25 --source /content/datasets/part-syn-3/test/images
+!python /content/yolov5/detect.py --weights /content/yolov5/runs/train/exp2/weights/best.pt --img 640 --conf 0.25 --source /content/datasets/part-syn-3/test/images   # Testing it on a seperate test
 ```
 ###  Here is multiple examples of the output
 
@@ -68,3 +68,6 @@ dataset = project.version(3).download("yolov5")
 
 ![infer](https://github.com/AhmedSaleh627/Eagles/assets/88249795/254b1e0a-a7ad-4e1f-896b-ba5fc9ab24ff)
 
+###  Some notes to consider when running the code:
+  1-Make sure in the data.yaml file the path to the training,testing and validation images are set correctly.
+  2-Make sure of the path of the model when training ( train.py )
