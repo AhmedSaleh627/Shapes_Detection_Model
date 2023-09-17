@@ -29,18 +29,21 @@ dataset = project.version(3).download("yolov5")
 ```
 #### Here is the mean average precision of each class to see the accuracy of our model
 
-![map50](https://github.com/AhmedSaleh627/Eagles/assets/88249795/b04c9970-6723-4764-b1e9-ec396de435e7)
+![map502](https://github.com/AhmedSaleh627/Eagles/assets/88249795/179e63e2-1282-45c4-90a7-4ac58e8b6d0f)
 
 
 #### Here is the results of the training that helps us identify if there is any errors or something wrong with our training, and our main focus here is to ensure the decrease of the losses
 
-![results](https://github.com/AhmedSaleh627/Eagles/assets/88249795/87ca6c81-c9a8-4e26-b55a-5945b468565a)
+![results2](https://github.com/AhmedSaleh627/Eagles/assets/88249795/31fc7e49-ecc3-4975-a11d-92bafb59f18f)
+
 
 #### Also we can see the confusion matrix for more clarification
 
-![confusion_matrix](https://github.com/AhmedSaleh627/Eagles/assets/88249795/041e51d8-26c4-4838-b83b-4bf5d8ea90d1)
+![confusion_matrix2](https://github.com/AhmedSaleh627/Eagles/assets/88249795/acdae02d-7c1a-471d-b3e1-abf1e613b70f)
+
 
 #### Here is an image from the dataset used
+![trainImage](https://github.com/AhmedSaleh627/Eagles/assets/88249795/ec1b7c33-11f8-42c0-97b6-d363b2ee4d76)
 
 
 #### Testing our model
