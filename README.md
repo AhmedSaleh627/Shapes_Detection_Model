@@ -49,7 +49,7 @@ dataset = project.version(3).download("yolov5")
 
 ![validation_pred](https://github.com/AhmedSaleh627/Eagles/assets/88249795/fa90fc36-15d5-4f67-88ae-5fadc2300d4f)
 
-### Testing the prediction of the model on our test dataset.
+### Testing the prediction of the model on a seperate test dataset.
 ```
 !python /content/yolov5/detect.py --weights /content/yolov5/runs/train/exp2/weights/best.pt --img 640 --conf 0.25 --source /content/datasets/part-syn-3/test/images   # Testing it on a seperate test
 ```
