@@ -66,7 +66,7 @@ dataset = project.version(3).download("yolov5")
 ![no3](https://github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/b459954a-e312-429e-9210-f7ba4904a55c)
 
 
-### Testing the prediction of the model on an external image from different distribution.
+### Below is the inference code in which we will take any external image with different distribution and specify it's size to match our dataset ( 640 ) and see the model's prediction on it.
 ```
 !python /content/yolov5/detect.py --weights /content/yolov5/runs/train/exp2/weights/best.pt --img 640 --conf 0.25 --source /content/dc6055f57fc11144481ee3173932158a.jpg    # Testing it on an external image
 ```
