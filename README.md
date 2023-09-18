@@ -1,4 +1,4 @@
-# Shape Detection Model
+# Shape Detection Model using YOLOv5
 
 [Open in Colab](https://colab.research.google.com/drive/16uytse5hdZFU1QCnMSICPkGqO5xo486f?usp=sharing) -- Here is the Link to the Google Colab Notebook
 
