@@ -78,4 +78,4 @@ dataset = project.version(3).download("yolov5")
 
 ###  Some notes to consider when running the code:
   1-Change the path to the training,testing and validation images in the data.yaml file according to where you saved the dataset.<br/>
-  2-Make sure of the path of the model when training ( train.py )
+  2-Make sure of the path of the model when training and predicting ( train.py , detect.py )
