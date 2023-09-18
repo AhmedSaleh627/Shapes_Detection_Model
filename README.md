@@ -1,6 +1,10 @@
 # Shape Detection Model using YOLOv5
-YOLOv5 is a popular object detection model known for its speed and accuracy. It is well-suited for real-time applications and can detect various objects, including shapes, in images or videos. YOLOv5 achieves this by dividing the input image into a grid and predicting bounding boxes and class probabilities for each grid cell. This makes it a suitable choice for shape detection tasks where speed and accuracy are important factors.
+
 [Open in Colab](https://colab.research.google.com/drive/16uytse5hdZFU1QCnMSICPkGqO5xo486f?usp=sharing) -- Here is the Link to the Google Colab Notebook
+
+YOLOv5 is a popular object detection model known for its speed and accuracy. It is well-suited for real-time applications and can detect various objects, including shapes, in images or videos. YOLOv5 achieves this by dividing the input image into a grid and predicting bounding boxes and class probabilities for each grid cell. This makes it a suitable choice for shape detection tasks where speed and accuracy are important factors.
+
+
 
 ### Importing Libiraries
 ```
