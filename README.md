@@ -30,25 +30,28 @@ dataset = project.version(3).download("yolov5")
 ### Here is the mean average precision of each class to see the accuracy of our model
 
 
-![map50](https://github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/51e3e23f-d924-4eb0-8ff6-8b855846436f)
+![map502](https://github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/dedfdc9e-c520-4991-854b-ed50f2ef1af9)
+
 
 
 ### Here is the results of the training that helps us identify if there is any errors or something wrong with our training, and our main focus here is to ensure the decrease of the losses
 
-![results2](https://github.com/AhmedSaleh627/Eagles/assets/88249795/31fc7e49-ecc3-4975-a11d-92bafb59f18f)
+![results2](https://github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/c50e4f6a-5e9d-4496-95ec-cbe626b1eef6)
 
 
 ### Also we can see the confusion matrix for more clarification
 
-![confusion_matrix2](https://github.com/AhmedSaleh627/Eagles/assets/88249795/acdae02d-7c1a-471d-b3e1-abf1e613b70f)
+![confusion_matrix2](https://github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/ee1e5478-8c2d-4e74-83a3-61da2998e653)
 
 
 ### Here is an image from the dataset used
-![trainImage](https://github.com/AhmedSaleh627/Eagles/assets/88249795/ec1b7c33-11f8-42c0-97b6-d363b2ee4d76)
+![trainImage](https://github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/1fcfb10f-0117-403f-bdb2-ecf4d8b18932)
+
 
 ### Here is a validation batch prediction
 
-![validation_pred](https://github.com/AhmedSaleh627/Eagles/assets/88249795/fa90fc36-15d5-4f67-88ae-5fadc2300d4f)
+![validation_pred](https://github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/673a3d71-858d-4ca5-b352-e04a6f8224a5)
+
 
 ### Testing the prediction of the model on a seperate test dataset.
 ```
@@ -56,9 +59,12 @@ dataset = project.version(3).download("yolov5")
 ```
 ###  Here is multiple examples of the output
 
-![no1](https://github.com/AhmedSaleh627/Eagles/assets/88249795/8a310f9e-3384-4a64-bd52-76bd18ee2748)
-![no2](https://github.com/AhmedSaleh627/Eagles/assets/88249795/8b1ac462-9636-4320-ad2f-8f717052c102)
-![no3](https://github.com/AhmedSaleh627/Eagles/assets/88249795/393aabda-4386-48a1-9334-c5a8e0c80b60)
+![no1](https://github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/de225c6a-e5cd-45f0-aae3-c2dcc11133df)
+
+![no2](https://github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/52f2fee5-1098-4002-bb23-f03bcb76e24f)
+
+![no3](https://github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/b459954a-e312-429e-9210-f7ba4904a55c)
+
 
 ### Testing the prediction of the model on an external image from different distribution.
 ```
@@ -67,7 +73,8 @@ dataset = project.version(3).download("yolov5")
 
 ###  Here is the output
 
-![infer](https://github.com/AhmedSaleh627/Eagles/assets/88249795/254b1e0a-a7ad-4e1f-896b-ba5fc9ab24ff)
+![infer](https://github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/0c421db8-c9ed-43bb-a4b5-d1d9039aa51e)
+
 
 ###  Some notes to consider when running the code:
   1-Change the path to the training,testing and validation images in the data.yaml file according to where you saved the dataset.<br/>
