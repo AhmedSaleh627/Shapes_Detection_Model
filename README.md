@@ -29,7 +29,8 @@ dataset = project.version(3).download("yolov5")
 ```
 ### Here is the mean average precision of each class to see the accuracy of our model
 
-![map502](https://raw.github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/eb7ef138-f719-4f27-8d65-269bb21ff978)
+
+![map50](https://github.com/AhmedSaleh627/Shapes_Detection_Model/assets/88249795/51e3e23f-d924-4eb0-8ff6-8b855846436f)
 
 
 ### Here is the results of the training that helps us identify if there is any errors or something wrong with our training, and our main focus here is to ensure the decrease of the losses
